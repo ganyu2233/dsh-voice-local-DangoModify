@@ -39,7 +39,7 @@ DeepSeek Harness（dsh）Web UI 本地语音输入插件——**本包是基于�
 ### 方式一：从 Git 仓库安装
 ```bash
 dsh plugin --profile web add git+https://github.com/ganyu2233/dsh-voice-local-DangoModify.git
-仓库地址:git clone https://github.com/ganyu2233/dsh-voice-local-DangoModify.git
+# 仓库地址:git clone https://github.com/ganyu2233/dsh-voice-local-DangoModify.git
 # 重启 dsh web 后生效
 ```
 
