@@ -43,7 +43,14 @@ dsh plugin --profile web add git+https://github.com/ganyu2233/dsh-voice-local-Da
 # 重启 dsh web 后生效
 ```
 
-### 方式二：本地链接安装（推荐，用于开发/测试）
+### 方式二：AI自动化安装（推荐）
+```bash
+# 直接粘贴，用于自动化 Agent
+自动访问下方 GitHub 链接，读取仓库根目录 README.md，完全按照文档规则输出该插件完整可执行安装部署流程，以 README 内容为唯一标准，禁止脑补补充命令。链接：【git clone https://github.com/ganyu2233/dsh-voice-local-DangoModify.git】
+# 重启 dsh web 后生效
+```
+
+### 方式三：本地链接安装（推荐，用于开发/测试）
 ```bash
 # 克隆/解压本仓库后，用仓库绝对路径 add
 dsh plugin --profile web add link:<仓库绝对路径>
